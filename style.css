@@ -1,0 +1,32 @@
+body{
+    font-family: sans-serif;
+    direction: rtl;
+    background-color: bisque;
+    
+}
+
+header{
+    text-align: center;
+    direction: ltr;
+    background-color: rgb(203, 156, 62);
+    color: black;
+    
+}
+section {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    
+   
+    border-radius: 8px;
+}
+section .dircn{
+    direction: ltr;
+}
+
+footer {
+    text-align: center;
+    background-color: #222;
+    color: #ccc;
+    
+}
