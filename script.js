@@ -1,28 +1,34 @@
-// switch (a= prompt("who is there?")){
-//     case "cancel": alert("canceled");
-//         break;
-//     case "other": alert("I dont know");
-//         break;
+/*
+switch (a= prompt("who is there?")){
+    case "cancel": alert("canceled");
+        break;
+    case "other": alert("I dont know");
+        break;
 
-//     case "admin": 
-//     switch(prompt("pass...")){
-//         case "cancel": alert("canceled");
-//             break;
+    case "admin": 
+    switch(prompt("pass...")){
+        case "cancel": alert("canceled");
+            break;
 
-//         case "other": alert("wrong pass");
-//             break;
+        case "other": alert("wrong pass");
+            break;
 
-//         case "themaster": alert("wellcome");
-//             break;
-//         default: alert("bye");
-//             break;
+        case "themaster": alert("wellcome");
+            break;
+        default: alert("bye");
+            break;
 
-//     }
-//     default:alert("ok bye");
-//         break;
-// }
+    }
+    default:alert("ok bye");
+        break;
+}
+*/
 
-let user = prompt("Who's there?");
+
+
+
+
+/*let user = prompt("Who's there?");
 
 switch (user) {
   case null:
@@ -48,3 +54,24 @@ switch (user) {
   default:
     alert("I don't know you");
 }
+*/
+
+
+let user = prompt("Who's there?");
+
+if (user === null) {
+  alert("Canceled");
+} else if (user === "Admin") {
+  let pass = prompt("Password?");
+  if (pass === null) {
+    alert("Canceled");
+  } else if (pass === "TheMaster") {
+    alert("Welcome!");
+  } else {
+    alert("Wrong password");
+  }
+} else {
+  alert("I don't know you");
+}
+
+
