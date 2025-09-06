@@ -56,7 +56,7 @@ switch (user) {
 }
 */
 
-
+/*
 let user = prompt("Who's there?");
 
 if (user === null) {
@@ -73,5 +73,7 @@ if (user === null) {
 } else {
   alert("I don't know you");
 }
+*/
 
 
+var a=25;
